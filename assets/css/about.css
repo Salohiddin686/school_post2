@@ -254,3 +254,37 @@
     letter-spacing: 0.2px;
     background: var(--primery);
 }
+
+/* newPost */
+.newPost {
+    padding-top: 51px;
+    padding-bottom: 56px;
+}
+.newPost_title {
+    color: var(--dark);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.3px;
+}
+
+
+.newPost_subtitle {
+    box-sizing: border-box;
+    border: 1px solid rgb(43, 167, 226);
+    border-radius: 20px;
+    padding: 6px 11px;
+    color: var(--grey);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+}
+.newPost_title_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 16px;
+}
