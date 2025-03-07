@@ -80,4 +80,5 @@
 .galary_img {
     width: 300px;
     height: 250px;
+    object-fit: cover;
 }

@@ -145,7 +145,7 @@
 .tech_img {
     width: 300px;
     height: 268.9px;
-
+    object-fit: cover;
 }
 
 .tech_name {
