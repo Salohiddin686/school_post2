@@ -1,0 +1,129 @@
+@import "../css/global.css";
+@import "../css/header_footer.css";
+
+.hero_title {
+    padding-top: 186px;
+    padding-bottom: 263px;
+    text-align: center;
+    color: var(--white);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.3px;
+}
+
+
+.contact {
+    padding-top: 135px;
+}
+
+.contact_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
+.contact_input_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.contact_name {
+    width: 670.09px;
+    height: 56px;
+    border-radius: 8px;
+    background: var(--white);
+    border: 1px var(--lightGrey) solid;
+    outline: none;
+    padding-left: 13px;
+    font-size: 16px;
+}
+
+.contact_message_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 400px;
+    max-height: 400px;
+}
+
+.contact_message_inp {
+    width: 670.09px;
+    height: 200px;
+    border-radius: 8px;
+    background: var(--white);
+    border: 1px var(--lightGrey) solid;
+    outline: none;
+    padding-left: 13px;
+    font-size: 16px;
+}
+
+.contact_btn {
+    width: 151.84px;
+    height: 40px;
+    border-radius: 4px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    background: var(--primery);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+}
+
+.contact_message {
+    width: 538px;
+    height: 107px;
+    border-radius: 2px;
+    background: var(--lightGrey);
+    height: auto;
+    width: auto;
+    padding-top: 8px;
+    padding-left: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact_messages_wrappers {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.contact_mrssage_title {
+    color: var(--darkGreen);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contact_mrssage_subtitle {
+    color: var(--grey);
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+.contact_hr_wrapper {
+    display: flex;
+}
+
+.contact_hr_wrapper hr {
+    margin-right: 10px;
+    width: 3px;
+    background: var(--primery);
+}

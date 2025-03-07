@@ -1,0 +1,83 @@
+@import "../css/global.css";
+@import "../css/header_footer.css";
+
+
+/* hero */
+.hero_title {
+    padding-top: 186px;
+    padding-bottom: 263px;
+    text-align: center;
+    color: var(--white);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.3px;
+}
+
+/* galary */
+.galary {
+    padding-top: 53px;
+}
+
+.galary_wrapper {
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.galary_li {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 40px;
+    width: 100%;
+    background: var(--white);
+    position: relative;
+}
+
+.galary_list {
+    padding-top: 15px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.galary_title {
+    color: var(--dark);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.galary_subtitle {
+    color: var(--lightGrey);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+
+
+.galary_img {
+    width: 300px;
+    height: 250px;
+}
