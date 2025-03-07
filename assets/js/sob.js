@@ -6,7 +6,7 @@ let modalName1 = document.querySelector('.modal_name');
 let modalName22 = document.querySelector('.modal_name2');
 let overlay2 = document.querySelector(".overlay");
 let esc2 = document.querySelector('.modal_esc')
-
+let input2 = document.querySelector('#input')
 
 fetch(sobRev)
     .then((res) => res.json())
