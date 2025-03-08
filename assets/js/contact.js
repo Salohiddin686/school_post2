@@ -1,4 +1,4 @@
-const API = "https://api.39ortomekteb.info";
+
 const APIContact = "https://api.39ortomekteb.info/api/contact";
 const APIContactCreate = "https://api.39ortomekteb.info/api/contact/create";
 
